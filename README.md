@@ -8,6 +8,9 @@ A full-stack application for managing users with a modern React frontend and Nes
 - MySQL database
 - npm or yarn package manager
 
+create a MySQL database for our application:
+CREATE DATABASE user_management;
+
 ## Backend Setup
 
 1. Navigate to the backend directory:
@@ -67,15 +70,8 @@ A full-stack application for managing users with a modern React frontend and Nes
 
 ##Frontend
 
-1. Sorting
-- Column headers are clickable to toggle between ascending 🔼 and descending 🔽 order.
-- Sorting is handled using getSortedRowModel() from TanStack Table.
+1. Open your browser and navigate to http://localhost:3000
 
-2.Global Search / Filtering
-- A global search input is available to filter data across all columns.
-- Filtering logic is managed using getFilteredRowModel().
+2. Click on "Go to Users" to access the user management interface
 
-3. Pagination
-- Built-in pagination controls for navigating between pages (First, Previous, Next, Last).
-- Page size selector available (10, 25, 50 rows per page).
-- Pagination handled via getPaginationRowModel().
+3. You can now create, read, update, and delete users through the interface
